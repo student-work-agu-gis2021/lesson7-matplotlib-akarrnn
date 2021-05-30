@@ -58,9 +58,11 @@ assert len(colors) == 1000, "There should be 1000 random numbers for colors"
 
 # Plot a scatter plot
 # YOUR CODE HERE 3
-
+import matplotlib.pylot as plt
+plt.scatter(x,y,s=50,c=colors,cmap='rainbpw',edgecolor='black')
 # Add labels and title
 # YOUR CODE HERE 4
+
 
 # Save the plot as a png file:
 outputfp = "my_first_plot.png"
